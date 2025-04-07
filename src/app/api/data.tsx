@@ -31,18 +31,18 @@ export const Companiesdata: { imgSrc: string }[] = [
 export const workdata: { imgSrc: string; heading: string; subheading: string; }[] = [
     {
         imgSrc: '/images/work/icon-one.svg',
-        heading: 'Create Account',
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
+        heading: 'Group classes',
+        subheading: 'Join fun, interactive group sessions led by certified trainers. Perfect for motivation, consistency, and achieving results together.',
     },
     {
         imgSrc: '/images/work/icon-two.svg',
-        heading: 'Find your Credit',
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
+        heading: 'Personal training',
+        subheading: 'One-on-one sessions tailored to your goals and fitness level. Get full attention, personalized workouts, and quicker results.',
     },
     {
         imgSrc: '/images/work/icon-three.svg',
-        heading: 'Exchange Currency',
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry and this standard dummy text ever since the 1500s, when an unknownprinter took a galley of type and scrambled it to make a type specimen book. It has survived...',
+        heading: 'Nutrition & wellness guidance',
+        subheading: 'Receive expert advice on diet, lifestyle, and mental well-being. Balance your fitness journey with healthy habits for life.',
     },
 
 ]
@@ -50,34 +50,38 @@ export const workdata: { imgSrc: string; heading: string; subheading: string; }[
 export const Featuresdata: { imgSrc: string; heading: string; subheading: string; }[] = [
     {
         imgSrc: '/images/features/featureOne.svg',
-        heading: 'Secure storage',
-        subheading: 'We lake data security and privacy very seriously',
+        heading: 'Progress Tracking',
+        subheading: 'Track your workouts, sets, reps, and body measurements — all in one place.',
     },
     {
         imgSrc: '/images/features/featureTwo.svg',
-        heading: 'Free to use',
-        subheading: 'Top notch crypto portfolio traking at no cost',
+        heading: 'Workout Plans',
+        subheading: 'Get customized training programs based on your fitness goals and experience level.',
     },
     {
         imgSrc: '/images/features/featureThree.svg',
-        heading: 'Real-time price data',
-        subheading: 'Updating 24/7 using price data form the biggest exchanges',
+        heading: 'Performance Analytics',
+        subheading: 'Monitor your progress in real time with data-driven insights and detailed graphs.',
     },
 ]
 
 
 export const Faqdata: { heading: string; subheading: string; }[] = [
     {
-        heading: "1. What is cryptocurrency?",
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+        heading: "1. What are your gym's operating hours?",
+        subheading: 'We are open from 5:00 AM to 11:00 PM every day, including weekends and most public holidays.'
     },
     {
-        heading: "2. Can cryptocurrency be converted to cash?",
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+        heading: "2. Do you offer a free trial?",
+        subheading: 'Yes! First-timers can enjoy a free 3-day trial to explore our facilities and classes.'
     },
     {
-        heading: "3. How long should you hold cryptocurrency?",
-        subheading: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into'
+        heading: "3. Are personal trainers available?",
+        subheading: 'Absolutely. We have certified personal trainers available for all fitness levels and goals. You can book sessions online or at the front desk.'
+    },
+    {
+        heading: "4. Do you provide diet plans or nutrition guidance?",
+        subheading: 'Yes, our trainers and partners include certified nutritionists to help you stay on track with your fitness goals.'
     },
 
 ]

@@ -8,8 +8,9 @@ const Work = () => {
             <div className='container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4 relative'>
                 <div className="bg-banner-image hidden lg:block absolute w-full h-full top-1/2 -right-1/4 blur-390"></div>
                 <div className='text-center mb-14'>
-                    <h3 className='text-white/80 text-3xl md:text-5xl font-bold mb-3'>How it work</h3>
-                    <p className='text-white/60 md:text-lg font-normal leading-8'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br /> Lorem Ipsum has been the industry standard dummy text ever.</p>
+                    <h3 className='text-white/80 text-3xl md:text-5xl font-bold mb-3'>Services</h3>
+                    <p className='text-white/60 md:text-lg font-normal leading-8'>From group workouts to one-on-one coaching and expert nutrition advice — we offer everything you need to crush your fitness goals.
+                    </p>
                 </div>
                 <div className='grid md:grid-cols-2 lg:grid-cols-3 gap-y-20 gap-x-5 mt-32'>
                     {workdata.map((items, i) => (

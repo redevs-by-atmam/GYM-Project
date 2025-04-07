@@ -38,10 +38,10 @@ const footer = () => {
           <div className='col-span-6'>
             <img
               className="block h-12 w-20px mb-4"
-              src={'/images/logo/logo.svg'}
-              alt="Crypto-Logo"
+              src={'/images/logo/logo.png'}
+              alt="Gym-Logo"
             />
-            <h3 className='text-white/60 text-sm font-normal leading-9 mb-4 lg:mb-16'> Cryptocurrency is a type of virtual currency that uses cryptography to secure transactions that are digitally recorded on a distributed ledger, such as a blockchain.</h3>
+            <h3 className='text-white/60 text-sm font-normal leading-9 mb-4 lg:mb-16'> [Your Gym Name] — your digital gateway to fitness, strength, and transformation. This website is designed to give you everything you need to kickstart or level up your fitness journey.</h3>
             <div className='flex gap-4'>
               {socialLinks.map((items, i) => (
                 <Link href={items.href} key={i}><img src={items.imgsrc} alt={items.imgsrc} className='footer-icons' /></Link>
