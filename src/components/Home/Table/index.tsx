@@ -14,7 +14,7 @@ const tableData: table[] = [
     {
         index: 1,
         name: "Yoga Flow",
-        imgSrc: '/images/table/bitcoin.svg',
+        imgSrc: '/images/table/yoga.svg',
         timing: "6:00 AM",
         trainer: "Trainer 1",
         caloriesburned: 200,
@@ -23,7 +23,7 @@ const tableData: table[] = [
     {
         index: 2,
         name: "Strength Training",
-        imgSrc: '/images/table/cryptoone.svg',
+        imgSrc: '/images/table/strength.svg',
         timing: "7:30 AM",
         trainer: "Trainer 2",
         caloriesburned: 450,
@@ -32,7 +32,7 @@ const tableData: table[] = [
     {
         index: 3,
         name: "Spin Class",
-        imgSrc: '/images/table/cryptothree.svg',
+        imgSrc: '/images/table/spinclass.svg',
         timing: "5:00 PM",
         trainer: "Trainer 3",
         caloriesburned: 350,
@@ -41,7 +41,7 @@ const tableData: table[] = [
     {
         index: 4,
         name: "HIIT Boxing",
-        imgSrc: '/images/table/cryptotwo.svg',
+        imgSrc: '/images/table/boxing.svg',
         timing: "8:00 PM",
         trainer: "Trainer 4",
         caloriesburned: 500,
@@ -54,7 +54,7 @@ const Table = () => {
         <section>
             <div className='container mx-auto lg:max-w-screen-xl md:max-w-screen-md px-4' id="exchange-section">
                 <div className="rounded-2xl bg-tablebg p-8 overflow-x-auto relative z-10">
-                    <h3 className="text-white/80 text-2xl">Live Class Scheduleo </h3>
+                    <h3 className="text-white/80 text-2xl">Live Class Schedule</h3>
                     <table className="table-auto w-full mt-10">
                         <thead>
                             <tr className="text-white bg-border rounded-2xl">

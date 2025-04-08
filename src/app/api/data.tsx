@@ -30,17 +30,17 @@ export const Companiesdata: { imgSrc: string }[] = [
 
 export const workdata: { imgSrc: string; heading: string; subheading: string; }[] = [
     {
-        imgSrc: '/images/work/icon-one.svg',
+        imgSrc: '/images/work/group.svg',
         heading: 'Group classes',
         subheading: 'Join fun, interactive group sessions led by certified trainers. Perfect for motivation, consistency, and achieving results together.',
     },
     {
-        imgSrc: '/images/work/icon-two.svg',
+        imgSrc: '/images/work/training.svg',
         heading: 'Personal training',
         subheading: 'One-on-one sessions tailored to your goals and fitness level. Get full attention, personalized workouts, and quicker results.',
     },
     {
-        imgSrc: '/images/work/icon-three.svg',
+        imgSrc: '/images/work/nutrition.svg',
         heading: 'Nutrition & wellness guidance',
         subheading: 'Receive expert advice on diet, lifestyle, and mental well-being. Balance your fitness journey with healthy habits for life.',
     },
