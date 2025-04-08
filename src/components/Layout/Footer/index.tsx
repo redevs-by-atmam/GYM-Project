@@ -41,7 +41,7 @@ const footer = () => {
               src={'/images/logo/logo.png'}
               alt="Gym-Logo"
             />
-            <h3 className='text-white/60 text-sm font-normal leading-9 mb-4 lg:mb-16'> Bission League — your digital gateway to fitness, strength, and transformation. This website is designed to give you everything you need to kickstart or level up your fitness journey.</h3>
+            <h3 className='text-white/60 text-sm font-normal leading-9 mb-4 lg:mb-16'> Bision League — your digital gateway to fitness, strength, and transformation. This website is designed to give you everything you need to kickstart or level up your fitness journey.</h3>
             <div className='flex gap-4'>
               {socialLinks.map((items, i) => (
                 <Link href={items.href} key={i}><img src={items.imgsrc} alt={items.imgsrc} className='footer-icons' /></Link>
@@ -66,7 +66,7 @@ const footer = () => {
               <Image src={'/images/footer/number.svg'} alt="number-icon" width={20} height={20} />9999999999
             </h4>
             <h4 className="text-white/60 text-sm font-normal mb-6 flex gap-2">
-              <Image src={'/images/footer/email.svg'} alt="email-icon" width={20} height={20} />bissionleague@gmail.com
+              <Image src={'/images/footer/email.svg'} alt="email-icon" width={20} height={20} />bisionleague@gmail.com
             </h4>
             <h4 className="text-white/60 text-sm font-normal mb-6 flex gap-2">
               <Image src={'/images/footer/address.svg'} alt="address-icon" width={20} height={20} />Elgin St. Celina, Delaware 10299
@@ -75,7 +75,7 @@ const footer = () => {
         </div>
       </div>
       <div className='py-8 px-4 border-t border-t-lightblue'>
-        <h3 className='text-center text-white'>@2025 - All Rights Reserved by <Link href="https://redevs.atmam.org/" target="_blank" className="hover:text-primary"> ReDevs</Link></h3>
+        <h3 className='text-center text-white'>@2025 - All Rights Reserved by <Link href="https://redevs.atmam.org/" target="_blank" className="hover:text-primary"> Bision League</Link></h3>
       </div>
     </footer>
   )
